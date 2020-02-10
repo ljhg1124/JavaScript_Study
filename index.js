@@ -1,18 +1,58 @@
+/*
 alert('Im Working . Im JS. Im Beautiful. Im worth it'); // 경고창 띄우기.
 console.log('Im Working . Im JS. Im Beautiful. Im worth it'); // 콘솔창으로 로그 띄우기.
 
 let a = 221;
+//const a = 221; // 숫자가 변경되기 싫을 경우 const 라는 변수를 사용한다.
+
+
 let b = a - 5;
+
+a = 4; // 이미 선언한 a 값을 변경할 수 있다.
+
 console.log(b);
+*/
 
-/* ==========================================================
+/* String
+//const what = Junhee <- 어딧는지 찾을수 없음.
+const what = "Junhee";
 
-    Variable (변수)
- 1. 변하는 수
- 2. 첫째 - 변수 선언 
-    둘째 - 초기화
-    셋째 - 사용하면된다!
+console.log(what);
+*/
 
-    변수 let - 수학적 형태.
- 
-=========================================================== */
+/*
+Boolean
+const wat = true;
+*/
+
+/*
+Number
+const wat = 666;
+*/
+
+/*
+ float 
+const wat = 55.1;
+*/
+
+const monday = "Mon"; 
+const tue = "Tue";
+const wed = "Wed";
+const thu = "Thu";
+const fri = "Fri";
+
+console.log(monday, tue, wed, thu, fri);
+
+const dataNum = 53;
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", dataNum];
+
+console.log(daysOfWeek);
+
+/*
+자바스크립트의 문법 규칙
+ camel case 방법
+ 1. 소문자로 시작.
+ 2. 스페이스는 대문자로 시작.
+
+ ex) daysOfWeek = days of week
+*/
