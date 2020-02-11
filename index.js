@@ -35,6 +35,7 @@ const wat = 666;
 const wat = 55.1;
 */
 
+/*
 const monday = "Mon"; 
 const tue = "Tue";
 const wed = "Wed";
@@ -47,6 +48,27 @@ const dataNum = 53;
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", dataNum];
 
 console.log(daysOfWeek);
+*/
+
+const Man = {
+    name: "Jun",
+    age: 30,
+    gender:"Male",
+    isHandosme: true,
+    favMovies: ["Along the gods", "LOTR", "Oldboy"],
+    favFood: 
+    [
+        {
+            name:"Kimchi", 
+            fatty: false
+        }, 
+        {
+            name:"Cheese burger", 
+            fatty: true
+        }
+    ]
+};
+console.log(Man);
 
 /*
 자바스크립트의 문법 규칙

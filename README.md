@@ -70,6 +70,33 @@ console.log('Hellow!');  // 콘솔창으로 로그 띄우기.
        ex) const num = 54;
            const nums = [53, num, 55, 56];   
 
+    6. Object
+     - 오브젝트는 각 value에 이름을 넣어줄 수 있다. 
+     - Array와 다른점은.. Array는[](브라켓)로 선언해 만들지만 Object는 {}(컬리 브라켓)로 선언 한다.
+
+       ex)
+        const Man = {
+          name: "Jun",
+          age: 30,
+          gender:"Male",
+          isHandosme: true,
+          favMovies: ["Along the gods", "LOTR", "Oldboy"],
+          favFood: [
+            {
+              name:"Kimchi", 
+              fatty: false
+            }, 
+            {
+              name:"Cheese burger", 
+              fatty: true
+            }
+          ]
+        };
+
+      - 특이점.. 위 예시의 Man은 const로 선언한 것으로 값을 임의로 변경할 수 없지만 오브젝트 안의 객체(name, age 등등..)은 변경이 가능하다.
+      - 줄 바꿀때 콤마(,) 빼먹지 말기 중요!
+      - 오브젝트안에 Array, Array 안에 오브젝트 입력 가능.
+
 
 
 용어정리
