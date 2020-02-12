@@ -97,6 +97,20 @@ console.log('Hellow!');  // 콘솔창으로 로그 띄우기.
       - 줄 바꿀때 콤마(,) 빼먹지 말기 중요!
       - 오브젝트안에 Array, Array 안에 오브젝트 입력 가능.
 
+    7. Function 
+     - 함수는 함수이다.
+     - 어떤 것의 기능, 기능적 인것들
+
+      ex)
+      // 함수 생성.
+      function sayHello(potato, num)
+      {
+        console.log("Hello!", potato, num);
+      }
+      sayHello("Jun", 15);  
+
+      ...yHello(Argument(인자));
+      인자는 변수 같은 것.
 
 
 용어정리

@@ -50,6 +50,7 @@ const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", dataNum];
 console.log(daysOfWeek);
 */
 
+/*
 const Man = {
     name: "Jun",
     age: 30,
@@ -69,6 +70,17 @@ const Man = {
     ]
 };
 console.log(Man);
+*/
+
+// 함수 생성.
+function sayHello(potato, num)
+{
+    console.log("Hello!", potato, num);
+}
+
+sayHello("Jun", 15);
+console.log("Hi!");
+
 
 /*
 자바스크립트의 문법 규칙
