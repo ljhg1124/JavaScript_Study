@@ -83,18 +83,24 @@ const greetJun = sayHello("Jun", 20);
 console.log(greetJun);
 */
 
+/*
 const calculator =
 {
     plus: function(a,b)
     {
         return a + b;
     }
-}
-
-console.log(calculator);
+};
 
 const plus = calculator.plus(5, 5);
 console.log(plus);
+*/
+
+const title = document.getElementById("title");
+title.innerHTML = "Hi! From JS";
+title.style.color = "red";
+document.title = 'I own you now';
+console.dir(title);
 
 /*
 자바스크립트의 문법 규칙
