@@ -71,16 +71,30 @@ const Man = {
 };
 console.log(Man);
 */
-
+/*
 // 함수 생성.
 function sayHello(potato, num)
 {
-    console.log("Hello!", potato, num);
+    return `Hello ${potato} you are ${num} years old`;
 }
 
-sayHello("Jun", 15);
-console.log("Hi!");
+const greetJun = sayHello("Jun", 20);
 
+console.log(greetJun);
+*/
+
+const calculator =
+{
+    plus: function(a,b)
+    {
+        return a + b;
+    }
+}
+
+console.log(calculator);
+
+const plus = calculator.plus(5, 5);
+console.log(plus);
 
 /*
 자바스크립트의 문법 규칙

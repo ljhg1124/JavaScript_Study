@@ -97,6 +97,20 @@ console.log('Hellow!');  // 콘솔창으로 로그 띄우기.
       - 줄 바꿀때 콤마(,) 빼먹지 말기 중요!
       - 오브젝트안에 Array, Array 안에 오브젝트 입력 가능.
 
+      - 오브젝트 안에 함수를 넣을 수 있다.
+      ex)
+      const calculator =
+      {
+        plus: function(a,b)
+        {
+          return a + b;
+        }
+      }
+
+      const plus = calculator.plus(5, 5);
+      console.log(plus);
+
+
     7. Function 
      - 함수는 함수이다.
      - 어떤 것의 기능, 기능적 인것들
@@ -111,6 +125,16 @@ console.log('Hellow!');  // 콘솔창으로 로그 띄우기.
 
       ...yHello(Argument(인자));
       인자는 변수 같은 것.
+
+    8. ` ` (백틱)
+      ex)
+      function sayHello(potato, num)
+      {
+        return `Hello ${potato} you are ${num} years old`;
+      }
+      - 예시와 같이 한문장안에 변수 값을 넣을 수 있다.
+      
+    
 
 
 용어정리
