@@ -96,17 +96,40 @@ const plus = calculator.plus(5, 5);
 console.log(plus);
 */
 
-const title = document.getElementById("title");
-title.innerHTML = "Hi! From JS";
-title.style.color = "red";
-document.title = 'I own you now';
-console.dir(title);
-
 /*
-자바스크립트의 문법 규칙
- camel case 방법
- 1. 소문자로 시작.
- 2. 스페이스는 대문자로 시작.
+const title = document.getElementById("title");
 
- ex) daysOfWeek = days of week
+function handleClick(event){
+    title.style.color = "blue";
+}
+title.addEventListener("click", handleClick);
 */
+/*
+if(10 === 5) // 참일 때 실행
+{
+    console.log("hi");
+} 
+else if("10" === "11")
+{
+    console.log("lalala");
+}
+else // 참 이외일 때 실행
+{
+    console.log("ho");
+}
+*/
+
+const age = prompt("How old are you");
+
+if(age >= 18 && age <= 21)
+{
+    console.log('you can drink but you should not');
+}
+else if(age > 21)
+{
+    console.log('go ahed');
+}
+else
+{
+    console.log('too young')
+}

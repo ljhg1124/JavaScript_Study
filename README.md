@@ -168,7 +168,32 @@ h1 {
 
       - 이런식으로 html을 연결하여 직접 수정이 가능 하다.
 
-용어정리
+    10. Event처리
+        ex)
+        const title = document.getElementById("title");
+
+        function handleClick(event){
+          title.style.color = "blue";
+        }
+        title.addEventListener("click", handleClick);
+
+        - 타이틀을 클릭하게 되면 글자색이 바뀌는 이벤트.
+
+    11. if - else
+      
+        - 조건을 만들수 있다.
+        - === 는 두 피연산자가 자료형, 내용 모두 일치해야한다.
+        - == 는 두 피연산자를 비교전 동일한 자료형으로 변환후 내용을 검사
+        ex)
+        (1 == 1);    true
+        ('1' == 1);  true
+        (1 === 1);   true
+        ('1' === 1); false
+
+
+
+
+이외..
 
 자바스크립트의 문법 규칙
  camel case 방법
@@ -176,5 +201,8 @@ h1 {
  2. 스페이스는 대문자로 시작.
 
  ex) daysOfWeek = days of week
+
+자바스크립트는 이벤트를 받기를 기다린다.
+
 
 ===================================================================
