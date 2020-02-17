@@ -118,7 +118,7 @@ else // 참 이외일 때 실행
     console.log("ho");
 }
 */
-
+/*
 const age = prompt("How old are you");
 
 if(age >= 18 && age <= 21)
@@ -133,3 +133,20 @@ else
 {
     console.log('too young')
 }
+*/
+
+const title = document.getElementById("title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick()
+{
+    title.classList.toggle(CLICKED_CLASS);
+}
+
+function init()
+{
+    title.addEventListener("click", handleClick);
+}
+
+init();

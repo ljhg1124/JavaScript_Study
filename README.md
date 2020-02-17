@@ -190,6 +190,10 @@ h1 {
         (1 === 1);   true
         ('1' === 1); false
 
+    12. 이벤트 정보 사이트
+
+        - 이벤트의 근원을 알고 싶을때 - MDN을 찾아봐라
+        - 검색 방법 : javascript dom event mdn
 
 
 
@@ -203,6 +207,13 @@ h1 {
  ex) daysOfWeek = days of week
 
 자바스크립트는 이벤트를 받기를 기다린다.
+
+색 정보 사이트 : https://flatuicolors.com/
+
+window.addEventListener("offline", 함수); // 인터넷 연결안됨
+window.addEventListener("online", 함수);  // 인터넷 연결됨
+즉 인터넷 연결 상태가 확인이 됨.!
+
 
 
 ===================================================================
