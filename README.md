@@ -13,7 +13,8 @@
 
     JavaScript가 별루인 이유
  1. title 이건 head 이건 태그를 열었으면 닫기 태그도 다 해줘야한다.!
- 
+ 2. 태그 관련 참고 자료
+  -> https://pridiot.tistory.com/6
 ===================================================================
 
 
@@ -214,6 +215,10 @@ window.addEventListener("offline", 함수); // 인터넷 연결안됨
 window.addEventListener("online", 함수);  // 인터넷 연결됨
 즉 인터넷 연결 상태가 확인이 됨.!
 
+
+var, let, const 차이점
+ var -> function-scoped
+ let,const -> block-scoped
 
 
 ===================================================================
