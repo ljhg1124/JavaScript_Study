@@ -221,6 +221,10 @@ var, let, const 차이점
  let,const -> block-scoped
 
 
+ localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
+  -> 로컬스토리지에 저장할때 그냥 저장시 Object 로 저장 되지만.
+     JSON.stringify 함수를 이용하면 Object -> string 형식으로 변환되어 저장이 가능 하다.
+
 ===================================================================
 
 
