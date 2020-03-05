@@ -232,6 +232,8 @@ Math 라는 수학 함수 라이브러리가 있다.
   Math.floor(내림) ex) 4.6 -> 4
   Math.ceil(올림)  ex) 4.3 -> 5
 
+AIP - Application Programming Interface
+
 Location 정보 가져오는 방법
   navigator AIP 이용
 
